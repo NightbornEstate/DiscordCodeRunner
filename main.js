@@ -52,7 +52,7 @@ function output(msg, stdout, stderr, lang, icon) {
         msg.reply("Program ran without errors", {
             embed: {
                 title: "Output",
-                color: 0x2ECC71, // #2ECC71
+                color: 0x36393f, // #2ECC71
                 description: stdout,
                 author: {
                     name: lang,
